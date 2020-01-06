@@ -1,0 +1,12 @@
+2020-01-06 11:44:45,670 INFO [root] [__init__.py(<module>:10)] - TEST日志器能不能正常工作
+2020-01-06 11:44:46,075 INFO [root] [login.py(test_login:29)] - 登录成功返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'b172022f-44de-4268-925b-dc5d323780bc'}
+2020-01-06 11:44:46,075 INFO [root] [login.py(test_login:36)] - 保存的令牌是:{'Content-Type': 'application/json', 'Authorization': 'Bearer b172022f-44de-4268-925b-dc5d323780bc'}
+2020-01-06 11:44:46,149 INFO [root] [test_emp.py(test02_query_emp:45)] - 查询员工接口返回的数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2020-01-06 11:44:46,218 INFO [root] [test_emp.py(test03_modify_emp:55)] - 修改员工接口的返回数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2020-01-06 11:44:46,292 INFO [root] [test_emp.py(test04_delete_emp:65)] - 删除员工接口的返回数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2020-01-06 11:45:30,501 INFO [root] [__init__.py(<module>:10)] - TEST日志器能不能正常工作
+2020-01-06 11:45:30,841 INFO [root] [login.py(test_login:29)] - 登录成功返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '7b48994e-6b96-4a88-8613-3533d5c8da8b'}
+2020-01-06 11:45:30,842 INFO [root] [login.py(test_login:36)] - 保存的令牌是:{'Content-Type': 'application/json', 'Authorization': 'Bearer 7b48994e-6b96-4a88-8613-3533d5c8da8b'}
+2020-01-06 11:45:30,918 INFO [root] [test_emp.py(test02_query_emp:45)] - 查询员工接口返回的数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2020-01-06 11:45:30,994 INFO [root] [test_emp.py(test03_modify_emp:55)] - 修改员工接口的返回数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2020-01-06 11:45:31,067 INFO [root] [test_emp.py(test04_delete_emp:65)] - 删除员工接口的返回数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
